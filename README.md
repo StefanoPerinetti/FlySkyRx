@@ -18,3 +18,20 @@ Install
 -------
 Download and copy into your SD/WIDGETS directory.  
 On the radio telemetry page, add a page with single zone and select the widget FlySkyRx.
+
+Configure
+---------
+
+Simply check on model telemetry page if sensors names are as shown in the picture, otherwise simple edit names to match values in the picture.
+
+![Image](SupportFiles/sensorsNames.png "Sensors Names")
+
+Rx battery sensor name: Rx-V
+
+RSSI sensor name: RSSI
+
+RSNR sensor name: RSNR
+
+Rx Quality sensor name: RQly
+
+Names are case sensitive!
