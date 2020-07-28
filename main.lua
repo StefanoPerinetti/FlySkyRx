@@ -23,13 +23,8 @@ ToDo
 
 DISCLAIMER
 ==========
-CHECK FOR CORRECT OPERATION BEFORE USE. IF IN DOUBT DO NOT FLY!!
-
-USER SETTABLE VARIABLES
-=======================
-
-END OF USER SETTABLE VARIABLES
-============================== --]]
+PLEASE USE AT YOUR OWN RISK! TEST BEFORE FLY
+--]]
 
 
 -- ========= LOCAL VARIABLES =============
@@ -231,10 +226,10 @@ local function refresh(wgt)
 	elseif wgt.zone.w >= 390 and wgt.zone.h >= 172  then
     -- Draw result for zone full with bottom bar, sliders and trims
 		drawBackground (bg_image, wgt.zone.x, wgt.zone.y)
-    drawTDataRxBattery (wgt.zone.x + 20, wgt.zone.y + 90, 75, SMLSIZE)
-    drawTDataRSSI(wgt.zone.x + 245, wgt.zone.y + 90, 72, SMLSIZE)
-    drawTDataRQly (wgt.zone.x + 20, wgt.zone.y + 168, 75, SMLSIZE)
-    drawTDataRSNR(wgt.zone.x + 245, wgt.zone.y + 168, 72, SMLSIZE)
+    drawTDataRxBattery (wgt.zone.x + 15, wgt.zone.y + 80, 62, SMLSIZE)
+    drawTDataRSSI(wgt.zone.x + 205, wgt.zone.y + 80, 60, SMLSIZE)
+    drawTDataRQly (wgt.zone.x + 15, wgt.zone.y + 145, 63, SMLSIZE)
+    drawTDataRSNR(wgt.zone.x + 205, wgt.zone.y + 145, 60, SMLSIZE)
   else
     --to do, next zone is 1/2 screen
 	end
